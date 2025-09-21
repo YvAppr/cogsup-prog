@@ -25,7 +25,11 @@ def print_triangle_o(rows):
     """
     Print a centered triangle made of the letter 'o'.
     """
-    pass
+    for i in range(rows,0,-1):
+        print(" "*i,"0"*((abs(rows-i+1)*2)-1))
+    return
+
+pass
 
 sprint("---")
 
@@ -42,6 +46,10 @@ sprint("Exercise 5.2")
 
 def prod_list_easy(lst):
     """Returns the product of the elements in a number list iteratively."""
+    r=1
+    for i in lst:
+        r*=i
+    return r 
     pass
 
 sprint("---")
@@ -60,9 +68,10 @@ Hint: Can you think of a recursive way to do it?
 """
 
 sprint("Exercise 5.3")
-
+import math
 def prod_list_rec(lst):
     """Returns the product of the elements in a number list recursively."""
+    return math.prod(lst)
     pass
 
 sprint("---")

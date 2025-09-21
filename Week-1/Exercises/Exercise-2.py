@@ -14,9 +14,13 @@ Task:
 Write a for-loop that prints out the following line 20 times:
  All work and no play makes Jack a dull boy.
 """
+for i in range(20):
+  print("All work and no play makes Jack a dull boy.")
 
 print("Exercise 2.1")
-
+for i in range(20):
+  print("All work and no play makes Jack a dull boy.")
+  
 pass
 
 print("---")
@@ -28,7 +32,11 @@ Task:
 Write a for-loop that prints out the numbers from 0 up to 5 inclusive.
 """
 
+
+
 print("Exercise 2.2")
+for i in range(6):
+  print(i)
 
 pass
 
@@ -43,7 +51,10 @@ Task:
 Write a for-loop that prints out the EVEN numbers from 2 up to 8 inclusive.
 """
 
+
 print("Exercise 2.3")
+for i in range(2,9):
+  print(i)
 
 pass
 
@@ -57,7 +68,10 @@ Task:
 Now write another loop to print 9 through 0 (i.e., backwards).
 """
 
+
 print("Exercise 2.4")
+for i in range(9,-1,-1):
+  print(i)
 
 pass
 
@@ -79,8 +93,13 @@ Write code that prints out the following sequence:
  zzzzzzzz
 """
 
-print("Exercise 2.5")
 
+
+print("Exercise 2.5")
+for i in range(8):
+  print()
+  for y in range(i+1):
+    print("z",end="")
 pass
 
 print("---")
@@ -104,8 +123,12 @@ of a simple print-statement.
 ------
 """
 
-print("Exercise 2.6")
 
+print("Exercise 2.6")
+for i in range(5):
+  print()
+  for y in range(i+1):
+    print(y+1,end="")
 pass
 
 print("---")
@@ -135,6 +158,9 @@ your code needs to carry out for a certain value of rows.
 print("Exercise 2.7")
 
 rows = 5
+for i in range(rows,0,-1):
+  print(" "*i,"0"*((abs(rows-i+1)*2)-1))
+
 pass
 
 print("---")
@@ -164,7 +190,10 @@ on how to align the numbers.
 """
 
 print("Exercise 2.8")
-
+for x in range(10):
+    print(" ")
+    for y in range(10):
+        print((x+1)*(y+1),end=" "*(abs(len(str((x+1)*(y+1)))-4)))
 pass
 
 print("---")
