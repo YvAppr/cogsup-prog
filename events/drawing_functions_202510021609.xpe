@@ -1,0 +1,50 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Thu Oct 02 2025 16:09:02
+#sha1: ad9e62
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='M-E7-APPRIOU.local', release='22.6.0', version='Darwin Kernel Version 22.6.0: Thu Mar  6 21:52:09 PST 2025; root:xnu-8796.141.3.711.5~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1653,Stimulus,presented,0
+1797,Stimulus,presented,1
+2150,Stimulus,presented,0
+2162,Stimulus,presented,2
+2651,Stimulus,presented,0
+2662,Stimulus,presented,3
+3150,Stimulus,presented,0
+3163,Stimulus,presented,4
+3650,Stimulus,presented,0
+3663,Stimulus,presented,5
+4150,Stimulus,presented,0
+4166,Stimulus,presented,6
+4650,Stimulus,presented,0
+4667,Stimulus,presented,7
+5150,Stimulus,presented,0
+5156,Stimulus,presented,8
+5651,Stimulus,presented,0
+5660,Stimulus,presented,9
+6150,Stimulus,presented,0
+6164,Stimulus,presented,10
+6650,Stimulus,presented,0
+6669,Stimulus,presented,11
+7150,Stimulus,presented,0
+7172,Stimulus,presented,12
+7650,Stimulus,presented,0
+7659,Stimulus,presented,13
+8151,Stimulus,presented,0
+8163,Stimulus,presented,14
+8650,Stimulus,presented,0
+8665,Stimulus,presented,15
+9151,Stimulus,presented,0
+9168,Stimulus,presented,16
+9651,Stimulus,presented,0
+9656,Stimulus,presented,17
+10151,Stimulus,presented,0
+10160,Stimulus,presented,18
+10651,Stimulus,presented,0
+10663,Stimulus,presented,19
+11151,Stimulus,presented,0
+11166,Stimulus,presented,20
+11651,stdout,received,'[500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 501, 500, 500, 500, 500, 500]'
+11651,Experiment,ended
+11668,Stimulus,presented,21

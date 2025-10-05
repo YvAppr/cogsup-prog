@@ -1,0 +1,22 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Sun Oct 05 2025 23:51:02
+#sha1: 58c9fa
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='M-E7-APPRIOU.local', release='22.6.0', version='Darwin Kernel Version 22.6.0: Thu Mar  6 21:52:09 PST 2025; root:xnu-8796.141.3.711.5~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+825,Stimulus,presented,4
+1157,Stimulus,presented,9
+1490,Stimulus,presented,4
+1825,Stimulus,presented,9
+2143,Stimulus,presented,4
+2449,Stimulus,presented,9
+2773,Stimulus,presented,4
+3096,Stimulus,presented,9
+3403,Stimulus,presented,4
+3710,Stimulus,presented,9
+4032,Stimulus,presented,4
+4372,Stimulus,presented,9
+4572,Keyboard,received,32,check
+4573,Experiment,ended
+4593,Stimulus,presented,10

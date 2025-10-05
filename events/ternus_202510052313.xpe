@@ -1,0 +1,18 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Sun Oct 05 2025 23:13:27
+#sha1: 10ac19
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='M-E7-APPRIOU.local', release='22.6.0', version='Darwin Kernel Version 22.6.0: Thu Mar  6 21:52:09 PST 2025; root:xnu-8796.141.3.711.5~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1551,stderr,received,'Traceback (most recent call last):'
+1551,stderr,received,'  File "/Users/yvesappriou/Documents/CogSup/Programming/Assignments/Week-4/ternus.py", line 62, in <module>'
+1552,stderr,received,'    run_trial(50, 6, True)'
+1552,stderr,received,'  File "/Users/yvesappriou/Documents/CogSup/Programming/Assignments/Week-4/ternus.py", line 31, in run_trial'
+1552,stderr,received,'    circle1 = make_circles(radius, tags)'
+1552,stderr,received,'              ^^^^^^^^^^^^^^^^^^^^^^^^^^'
+1552,stderr,received,'  File "/Users/yvesappriou/Documents/CogSup/Programming/Assignments/Week-4/ternus.py", line 19, in make_circles'
+1552,stderr,received,'    add_tags(circle, radius)'
+1552,stderr,received,'  File "/Users/yvesappriou/Documents/CogSup/Programming/Assignments/Week-4/ternus.py", line 11, in add_tags'
+1552,stderr,received,'    tag.plot(circle,pos)'
+1552,stderr,received,'TypeError: Visual.plot() takes 2 positional arguments but 3 were given'
