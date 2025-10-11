@@ -1,0 +1,23 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Sat Oct 11 2025 13:52:43
+#sha1: 5c65b4
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='M-E7-APPRIOU.local', release='22.6.0', version='Darwin Kernel Version 22.6.0: Thu Mar  6 21:52:09 PST 2025; root:xnu-8796.141.3.711.5~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1679,design,log,
+#design: #exp: Blindspot
+#design: #dvn: eye,key_pressed,radius,x_cord,y_cord
+#design: block_cnt,block_id,trial_cnt,trial_id
+1679,design,logged,
+1679,Experiment,started
+1706,Stimulus,presented,0
+6713,Stimulus,presented,1
+6735,Stimulus,presented,2
+7312,Keyboard,received,1073741904,wait
+7313,stderr,received,'Traceback (most recent call last):'
+7313,stderr,received,'  File "/Users/yvesappriou/Documents/CogSup/Programming/Assignments/Week-5/blindspot_2b.py", line 73, in <module>'
+7313,stderr,received,"    run_trial('R')"
+7313,stderr,received,'  File "/Users/yvesappriou/Documents/CogSup/Programming/Assignments/Week-5/blindspot_2b.py", line 63, in run_trial'
+7313,stderr,received,'    exp.data.add(side,key,circle.radius,circle.position[0],circle.position[1])'
+7313,stderr,received,'TypeError: DataFile.add() takes 2 positional arguments but 6 were given'

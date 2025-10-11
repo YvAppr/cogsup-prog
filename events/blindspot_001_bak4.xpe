@@ -1,0 +1,78 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Sat Oct 11 2025 11:43:54
+#sha1: 41cfbc
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='M-E7-APPRIOU.local', release='22.6.0', version='Darwin Kernel Version 22.6.0: Thu Mar  6 21:52:09 PST 2025; root:xnu-8796.141.3.711.5~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1951,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1951,design,logged,
+1951,Experiment,started
+1961,Stimulus,presented,0
+1981,Stimulus,presented,1
+3931,Keyboard,received,122,wait
+3935,Stimulus,presented,0
+3946,Stimulus,presented,2
+4119,Keyboard,received,122,wait
+4122,Stimulus,presented,0
+4127,Stimulus,presented,3
+4316,Keyboard,received,122,wait
+4319,Stimulus,presented,0
+4332,Stimulus,presented,4
+4792,Keyboard,received,122,wait
+4796,Stimulus,presented,0
+4805,Stimulus,presented,5
+5034,Keyboard,received,122,wait
+5038,Stimulus,presented,0
+5043,Stimulus,presented,6
+5308,Keyboard,received,122,wait
+5311,Stimulus,presented,0
+5327,Stimulus,presented,7
+5529,Keyboard,received,122,wait
+5531,Stimulus,presented,0
+5545,Stimulus,presented,8
+5702,Keyboard,received,122,wait
+5705,Stimulus,presented,0
+5709,Stimulus,presented,9
+9688,Keyboard,received,122,wait
+9690,Stimulus,presented,0
+9711,Stimulus,presented,10
+9876,Keyboard,received,122,wait
+9878,Stimulus,presented,0
+9893,Stimulus,presented,11
+10073,Keyboard,received,122,wait
+10075,Stimulus,presented,0
+10092,Stimulus,presented,12
+10980,Keyboard,received,122,wait
+10982,Stimulus,presented,0
+10994,Stimulus,presented,13
+11155,Keyboard,received,122,wait
+11157,Stimulus,presented,0
+11175,Stimulus,presented,14
+11338,Keyboard,received,122,wait
+11339,Stimulus,presented,0
+11359,Stimulus,presented,15
+11536,Keyboard,received,122,wait
+11537,Stimulus,presented,0
+11542,Stimulus,presented,16
+12213,Keyboard,received,122,wait
+12214,stderr,received,'Traceback (most recent call last):'
+12214,stderr,received,'  File "/Users/yvesappriou/Documents/CogSup/Programming/Assignments/Week-5/blindspot.py", line 53, in <module>'
+12214,stderr,received,'    run_trial()'
+12214,stderr,received,'  File "/Users/yvesappriou/Documents/CogSup/Programming/Assignments/Week-5/blindspot.py", line 41, in run_trial'
+12214,stderr,received,'    circle = make_circle(radius)'
+12214,stderr,received,'             ^^^^^^^^^^^^^^^^^^^'
+12214,stderr,received,'  File "/Users/yvesappriou/Documents/CogSup/Programming/Assignments/Week-5/blindspot.py", line 13, in make_circle'
+12214,stderr,received,'    c.preload()'
+12214,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/stimuli/_visual.py", line 1059, in preload'
+12215,stderr,received,'    self._get_surface(),'
+12215,stderr,received,'    ^^^^^^^^^^^^^^^^^^^'
+12215,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/stimuli/_visual.py", line 490, in _get_surface'
+12215,stderr,received,'    tmp = self._create_surface()'
+12215,stderr,received,'          ^^^^^^^^^^^^^^^^^^^^^^'
+12215,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/stimuli/_ellipse.py", line 136, in _create_surface'
+12215,stderr,received,'    surface = pygame.surface.Surface('
+12215,stderr,received,'              ^^^^^^^^^^^^^^^^^^^^^^^'
+12215,stderr,received,'pygame.error: Invalid resolution for Surface'

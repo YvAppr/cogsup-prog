@@ -1,0 +1,84 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Sat Oct 11 2025 11:41:53
+#sha1: 00fd54
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='M-E7-APPRIOU.local', release='22.6.0', version='Darwin Kernel Version 22.6.0: Thu Mar  6 21:52:09 PST 2025; root:xnu-8796.141.3.711.5~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1912,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1912,design,logged,
+1912,Experiment,started
+1922,Stimulus,presented,0
+1933,Stimulus,presented,1
+3872,Keyboard,received,1073741905,wait
+3872,Stimulus,presented,0
+3879,Stimulus,presented,1
+4324,Keyboard,received,1073741905,wait
+4324,Stimulus,presented,0
+4328,Stimulus,presented,1
+5553,Keyboard,received,1073741905,wait
+5554,Stimulus,presented,0
+5566,Stimulus,presented,1
+5718,Keyboard,received,1073741905,wait
+5719,Stimulus,presented,0
+5730,Stimulus,presented,1
+5875,Keyboard,received,1073741905,wait
+5876,Stimulus,presented,0
+5882,Stimulus,presented,1
+6032,Keyboard,received,1073741905,wait
+6033,Stimulus,presented,0
+6046,Stimulus,presented,1
+6186,Keyboard,received,1073741905,wait
+6187,Stimulus,presented,0
+6196,Stimulus,presented,1
+6337,Keyboard,received,1073741905,wait
+6337,Stimulus,presented,0
+6342,Stimulus,presented,1
+6485,Keyboard,received,1073741905,wait
+6486,Stimulus,presented,0
+6494,Stimulus,presented,1
+6623,Keyboard,received,1073741905,wait
+6624,Stimulus,presented,0
+6631,Stimulus,presented,1
+6769,Keyboard,received,1073741905,wait
+6770,Stimulus,presented,0
+6787,Stimulus,presented,1
+6934,Keyboard,received,1073741904,wait
+6935,Stimulus,presented,0
+6942,Stimulus,presented,1
+7242,Keyboard,received,1073741904,wait
+7242,Stimulus,presented,0
+7246,Stimulus,presented,1
+7802,Keyboard,received,1073741904,wait
+7803,Stimulus,presented,0
+7819,Stimulus,presented,1
+7954,Keyboard,received,1073741904,wait
+7955,Stimulus,presented,0
+7967,Stimulus,presented,1
+8120,Keyboard,received,1073741904,wait
+8121,Stimulus,presented,0
+8134,Stimulus,presented,1
+8276,Keyboard,received,1073741904,wait
+8276,Stimulus,presented,0
+8287,Stimulus,presented,1
+8437,Keyboard,received,1073741904,wait
+8438,Stimulus,presented,0
+8442,Stimulus,presented,1
+8580,Keyboard,received,1073741904,wait
+8581,Stimulus,presented,0
+8597,Stimulus,presented,1
+8706,Keyboard,received,1073741904,wait
+8707,Stimulus,presented,0
+8717,Stimulus,presented,1
+10181,Keyboard,received,122,wait
+10181,stderr,received,'Traceback (most recent call last):'
+10181,stderr,received,'  File "/Users/yvesappriou/Documents/CogSup/Programming/Assignments/Week-5/blindspot.py", line 51, in <module>'
+10181,stderr,received,'    run_trial()'
+10182,stderr,received,'  File "/Users/yvesappriou/Documents/CogSup/Programming/Assignments/Week-5/blindspot.py", line 39, in run_trial'
+10182,stderr,received,'    circle.radius += -10'
+10182,stderr,received,'    ^^^^^^^^^^^^^'
+10182,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/stimuli/_circle.py", line 66, in radius'
+10182,stderr,received,'    raise AttributeError(Circle._getter_exception_message.format('
+10182,stderr,received,'AttributeError: Cannot set radius if surface exists!'
