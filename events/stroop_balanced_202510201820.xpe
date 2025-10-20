@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Mon Oct 20 2025 18:20:23
+#sha1: 3154ec
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='M-E7-APPRIOU.local', release='22.6.0', version='Darwin Kernel Version 22.6.0: Thu Mar  6 21:52:09 PST 2025; root:xnu-8796.141.3.711.5~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+12490,stderr,received,'Traceback (most recent call last):'
+12490,stderr,received,'  File "/Users/yvesappriou/Documents/CogSup/Programming/Assignments/Week-6/Exercises/stroop_balanced.py", line 97, in <module>'
+12490,stderr,received,'    subject_id= int(input("Enter subject ID:"))'
+12490,stderr,received,'                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+12490,stderr,received,"ValueError: invalid literal for int() with base 10: 'stop'"

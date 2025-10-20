@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpd-file, coding: UTF-8
+#date: Mon Oct 20 2025 18:27:22
+#--EXPERIMENT INFO
+#e mainfile: stroop_balanced.py
+#e sha1: 2934a9
+#e modules: 
+#e Experiment: Stroop_balanced
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 1
+subject_id,block_cnt,trial_cnt,trial_type,word,color,RT,correct
+1,1,1,mismatch,blue,red,4645,True

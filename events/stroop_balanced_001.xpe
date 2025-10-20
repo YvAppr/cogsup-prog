@@ -1,0 +1,33 @@
+#Expyriment 1.0.0 (Python 3.12.2), .xpe-file, coding: UTF-8
+#date: Mon Oct 20 2025 18:27:22
+#sha1: 2934a9
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='M-E7-APPRIOU.local', release='22.6.0', version='Darwin Kernel Version 22.6.0: Thu Mar  6 21:52:09 PST 2025; root:xnu-8796.141.3.711.5~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+1451,design,log,
+#design: #exp: Stroop_balanced
+#design: #dvn: block_cnt,trial_cnt,trial_type,word,color,RT,correct
+#design: block_cnt,block_id,trial_cnt,trial_id
+1451,design,logged,
+1451,Experiment,started
+1472,Stimulus,presented,19
+2208,Keyboard,received,8,wait
+2208,Stimulus,presented,0
+2727,Stimulus,presented,5
+7373,Keyboard,received,114,wait
+7373,Stimulus,presented,17
+8373,Stimulus,presented,0
+8896,Stimulus,presented,2
+1314763,stderr,received,'Traceback (most recent call last):'
+1314763,stderr,received,'  File "/Users/yvesappriou/Documents/CogSup/Programming/Assignments/Week-6/Exercises/stroop_balanced.py", line 109, in <module>'
+1314773,stderr,received,'    if block_id != N_BLOCKS:'
+1314774,stderr,received,'        ^^^^^^^^^^^^^^^^^^^^^'
+1314774,stderr,received,'  File "/Users/yvesappriou/Documents/CogSup/Programming/Assignments/Week-6/Exercises/stroop_balanced.py", line 85, in run_trial'
+1314774,stderr,received,'    key, rt = exp.keyboard.wait(KEYS)'
+1314774,stderr,received,'              ^^^^^^^^^^^^^^^^^^^^^^^'
+1314774,stderr,received,'  File "/opt/anaconda3/lib/python3.12/site-packages/expyriment/io/_keyboard.py", line 378, in wait'
+1314775,stderr,received,'    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):'
+1314775,stderr,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+1314775,stderr,received,'KeyboardInterrupt'
+1314777,Data,saved
